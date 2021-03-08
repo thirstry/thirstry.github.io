@@ -1,0 +1,56 @@
+.header img {
+    width: 100%;
+    height: 300px;
+}
+
+.intro-container {
+    display: flex;
+}
+
+.athir-intro {
+    text-align: end;
+    padding: 0.1em 1.5em 0.4em 1em;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.athir-container {
+    text-align: center;
+    font-size: 30px;
+}
+
+.athir-bio {
+    white-space: wrap;
+    margin: 30px auto;
+    padding: 0.1em 1.5em 0.4em 1em;
+}
+
+.athir-pic {
+    margin: 0 auto 2em 2em;
+    padding-top: 30px;
+}
+
+.athir-pic img {
+    width: 380px;
+    border-radius: 1em;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: auto;
+}
+
+.contact-me a {
+    margin: 0 0 0 1em;
+    font-size: 48px;
+    color: #28140d;
+}
+
+footer {
+    background-color: #412017;
+    height: 5em;
+    padding: 1em 2em;
+    margin-top: 1em;
+}
+    
