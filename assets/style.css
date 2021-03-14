@@ -45,10 +45,19 @@ footer {
 }
 
 .navbar {
-  background-image: url(pict/nav2.jpg);
+  background-image: url(/assets/nav.jpg);
 }
 
 .container-form {
   padding: auto;
   margin: 20px;
+}
+
+.card-img-top:hover {
+  opacity: 50%;
+}
+
+.row {
+  justify-content: space-around;
+  position: relative;
 }
