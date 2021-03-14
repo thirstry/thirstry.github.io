@@ -1,56 +1,54 @@
-.header img {
-    width: 100%;
-    height: 300px;
-}
-
-.intro-container {
-    display: flex;
-}
-
 .athir-intro {
-    text-align: end;
-    padding: 0.1em 1.5em 0.4em 1em;
-    font-size: 40px;
-    margin-top: 20px;
+  text-align: left;
+  margin-top: 40px;
+  padding: 0.1em 1.5em 0.4em 1.5em;
 }
 
 .athir-container {
-    text-align: center;
-    font-size: 30px;
+  text-align: left;
+  font-size: 27px;
 }
 
 .athir-bio {
-    white-space: wrap;
-    margin: 30px auto;
-    padding: 0.1em 1.5em 0.4em 1em;
+  margin-top: 35px;
+  padding: 0.5em 1.5em 0.4em 1em;
 }
 
 .athir-pic {
-    margin: 0 auto 2em 2em;
-    padding-top: 30px;
-}
-
-.athir-pic img {
-    width: 380px;
-    border-radius: 1em;
+  display: flex;
+  float: left;
+  justify-content: left;
+  width: 30%;
+  margin: 0 2.5em 2em 1.2em;
+  padding-top: 35px;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  margin: auto;
 }
 
-.contact-me a {
-    margin: 0 0 0 1em;
-    font-size: 48px;
-    color: #28140d;
-}
+/* .contact-me i {
+  margin: 0 0 0 1em;
+  font-size: 48px;
+  color: #28140d;
+} */
 
 footer {
-    background-color: #412017;
-    height: 5em;
-    padding: 1em 2em;
-    margin-top: 1em;
+  background-color: #412017;
+  color: azure;
+  height: 4em;
+  padding: 1em 2em;
+  margin-top: 5em;
+  margin-bottom: 0;
 }
-    
+
+.navbar {
+  background-image: url(pict/nav2.jpg);
+}
+
+.container-form {
+  padding: auto;
+  margin: 20px;
+}

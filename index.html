@@ -4,57 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
+    <title>Athir's Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="header">
-        <img src="head.jpg" alt="header">
-    </div>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 1em;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="font-weight: 600;">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="form.html" style="font-weight: 500;">Contact Me!</a>
+              </li>
+          
+            </ul>
+            <form class="d-flex" style="margin-right: 1em;">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    
     <main>
         <div class="intro-container">
-            <div class="athir-pic">
-                <img src="ava.jpg" alt="avatar">
-            </div>
-    
             <div class="athir-intro">
-                <h1>Hello..</h1>
-                <h2>I'm Mahathir Muhammad</h2>
-                <h3>and you can call me Athir :)</h3>
+                <h1>Hello.. I'm Mahathir Muhammad</h1>
+                <h2>and you can call me Athir :)</h2>
             </div>
+
+            <!--carousel-->
+            <div id="carousels" class="carousel athir-pic" data-bs-ride="carousel">
+              <div class="carousel-inner" style="border-radius: 1.5em;">
+                <div class="carousel-item active">
+                  <img src="pict/ava.jpg" class="d-block w-100" alt="athir pict">
+                </div>
+                <div class="carousel-item">
+                  <img src="pict/ava2.jpg" class="d-block w-100" alt="athir pict2">
+                </div>
+                <div class="carousel-item">
+                  <img src="pict/ava3.jpg" class="d-block w-100" alt="athir pict3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
         </div>
 
-        <class class="athir-container">
+        <div class="athir-container">
             <div class="athir-bio">
                 <p>So, welcome to my page!<br>
-                    I was born on December, 3rd 1996 in Makassar, South Sulawesi.<br>
-                    And currently I lives in Makassar. I am a student of Glints Academy<br>
-                    as Front-end Developer to be. I have joy within play and listen some music in<br>
-                    my spare time. Just feel free to connect with me :D
-                </p><br>
+                    I was born on December, 3rd 1996 in Makassar, South Sulawesi. <br>
+                    And currently I lives in Makassar. I am a student of Glints Academy <br>
+                    as Front-end Developer to be. I am passionate on visual-production, <br>
+                    and have joy within play or listen some music in my spare time. <br>
+                    Just feel free to connect with me :D
+                </p>
             </div>
 
-            <div class="contact-me">
+            <!-- <div class="contact-me">
                 <a href="https://www.linkedin.com/in/maha-athir">
-                    <i class="fab fa-linkedin-in"></i></a>
+                    <i class="fa fa-linkedin-in"></i></a>
     
                 <a href="https://www.instagram.com/maha.athir">
-                    <i class="fab fa-instagram"></i></a>
+                    <i class="fa fa-instagram"></i></a>
     
                 <a href="https://twitter.com/athiiirr">
-                    <i class="fab fa-twitter"></i></a>
+                    <i class="fa fa-twitter"></i></a>
                 
                 <a href="https://github.com/thirstry">
-                    <i class="fab fa-github"></i></a>
+                    <i class="fa fa-github"></i></a>
                 
                 <a href="https://gitlab.com/thirstry">
-                    <i class="fab fa-gitlab"></i></a>    
-            </div>              
+                    <i class="fa fa-gitlab"></i></a>    
+            </div>               -->
     
-            </class>
+            </div>
     </main>
+
+    <!--cards-->
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">LinkedIn</h5>
+            <p class="card-text">Touch me on LinkedIn :D</p>
+            <a href="https://www.linkedin.com/in/maha-athir" class="btn btn-outline-success">Go</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Instagram</h5>
+            <p class="card-text">Connect with me on Instagram :)</p>
+            <a href="https://www.instagram.com/maha.athir" class="btn btn-outline-success">Go</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Gitlab</h5>
+            <p class="card-text">Let's collaborate on Gitlab :D</p>
+            <a href="https://gitlab.com/thirstry" class="btn btn-outline-success">Go</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Github</h5>
+            <p class="card-text">or find me on Github :)</p>
+            <a href="https://github.com/thirstry" class="btn btn-outline-success">Go</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <br>
-    <div>
+    
+    <!--footer-->
+    <div class="footer">
         <footer>
             <p>&copy;2021 Mahathir Muhammad</p>
         </footer>
