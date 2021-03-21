@@ -74,14 +74,30 @@
             <!--end of carousel-->
 
             <div class="athir-bio">
-                <p>So, welcome to my page!<br>
+                <p id="athir-p">So, welcome to my page!<br>
                     I was born on December, 3rd 1996 in Makassar, South Sulawesi. <br>
                     And currently I lives in Makassar. I am a student of Glints Academy <br>
                     as Front-end Developer to be. I am passionate on visual-production, <br>
                     and have joy within play or listen some music in my spare time. <br>
                     Just feel free to connect with me :D
                 </p>
+                <button id="button1" onclick="Switch()" style="font-size: 12px;">Touch Me</button>
+                <button id="modalButton" style="font-size: 12px;">Open Modal</button>
             </div>
+
+            <!--modal div-->
+            <div id="athirModal" class="modal">
+          
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2>Hi There!</h2>
+                  <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                  <p>Welcome..</p>
+                  <p>Feel free if you wonder to click on "Contact Me!" :)</p>
+                </div>
+              </div>
 
             <!-- <div class="athir-sosmed">
               <a href="https://www.instagram.com/maha.athir" target="_blank"><i class="icon fa fa-instagram fa-2x"></i></a>
@@ -146,7 +162,9 @@
         <footer>
             <p>&copy;2021 Mahathir Muhammad</p>
         </footer>
-    </div> 
+    </div>
+    
+<script src="dom.js"></script>
 
 </body>
 
